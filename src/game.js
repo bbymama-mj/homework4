@@ -218,6 +218,10 @@ function renderGameScreen() {
   cardBox.append(card35);
   cardBox.append(card36);
   app.append(cardBox);
+
+  card1.addEventListener("click", () => {
+    window.application.blocks.screenGameOpen();
+  });
 }
 
 window.application.blocks["screenGame"] = renderGameScreen;
