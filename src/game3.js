@@ -1,4 +1,4 @@
-function renderGameScreen() {
+function renderGameScreen3() {
   const app = document.querySelector(".app");
   app.textContent = "";
 
@@ -199,24 +199,24 @@ function renderGameScreen() {
   cardBox.append(card16);
   cardBox.append(card17);
   cardBox.append(card18);
-  cardBox.append(card19);
-  cardBox.append(card20);
-  cardBox.append(card21);
-  cardBox.append(card22);
-  cardBox.append(card23);
-  cardBox.append(card24);
-  cardBox.append(card25);
-  cardBox.append(card26);
-  cardBox.append(card27);
-  cardBox.append(card28);
-  cardBox.append(card29);
-  cardBox.append(card30);
-  cardBox.append(card31);
-  cardBox.append(card32);
-  cardBox.append(card33);
-  cardBox.append(card34);
-  cardBox.append(card35);
-  cardBox.append(card36);
+  // cardBox.append(card19);
+  // cardBox.append(card20);
+  // cardBox.append(card21);
+  // cardBox.append(card22);
+  // cardBox.append(card23);
+  // cardBox.append(card24);
+  // cardBox.append(card25);
+  // cardBox.append(card26);
+  // cardBox.append(card27);
+  // cardBox.append(card28);
+  // cardBox.append(card29);
+  // cardBox.append(card30);
+  // cardBox.append(card31);
+  // cardBox.append(card32);
+  // cardBox.append(card33);
+  // cardBox.append(card34);
+  // cardBox.append(card35);
+  // cardBox.append(card36);
   app.append(cardBox);
 
   card1.addEventListener("click", () => {
@@ -224,4 +224,4 @@ function renderGameScreen() {
   });
 }
 
-window.application.blocks["screenGame"] = renderGameScreen;
+window.application.blocks["screenGame3"] = renderGameScreen3;
